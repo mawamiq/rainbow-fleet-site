@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Mir Jaan Shadi Hall — Wedding & Event Venue in Rawalpindi</title>
+<meta name="description" content="Mir Jaan Shadi Hall in Fazal Town Phase II, Rawalpindi. Spacious marriage hall, ample parking, in-house catering, decor and full event services for weddings, walimas and mehndis. 4.0★ from 179+ guests." />
+<meta property="og:title" content="Mir Jaan Shadi Hall — Rawalpindi" />
+<meta property="og:description" content="Affordable, spacious wedding hall in Rawalpindi for weddings, walimas, mehndis and family events." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Inter:wght@400;500;600;700;800&family=Inter+Tight:wght@600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#1F1410;
+    --ink-soft:#3D2B1F;
+    --ivory:#FBF6EE;
+    --ivory-dim:#E9DEC9;
+    --maroon:#C2402B;
+    --maroon-deep:#8F2C1E;
+    --gold:#D9A24B;
+    --gold-soft:#E9C988;
+    --line: rgba(251,246,238,0.14);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--ink);
+    color:var(--ivory);
+    font-family:'Inter',sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.serif{font-family:'Marcellus',serif; font-weight:400;}
+  .eyebrow{
+    font-family:'Inter Tight',sans-serif;
+    font-weight:700;
+    letter-spacing:.16em;
+    text-transform:uppercase;
+    font-size:.72rem;
+    color:var(--gold);
+  }
+  a{color:inherit; text-decoration:none;}
+  img{max-width:100%; display:block;}
+  .wrap{max-width:1140px; margin:0 auto; padding:0 24px;}
+  section{padding:96px 0;}
+  @media (max-width:720px){ section{padding:64px 0;} }
+
+  /* ---------- Marigold garland motif (signature element) ---------- */
+  .garland{
+    display:flex;
+    justify-content:center;
+    gap:14px;
+    padding:10px 0 0;
+    opacity:.9;
+  }
+  .garland span{
+    width:13px; height:13px; border-radius:50%;
+    background:radial-gradient(circle at 35% 30%, var(--gold-soft), var(--gold) 60%, var(--maroon-deep) 100%);
+    box-shadow:0 0 0 1px rgba(0,0,0,.2) inset;
+  }
+  .garland.flip span{
+    background:radial-gradient(circle at 35% 30%, #fff6e2, var(--maroon) 55%, var(--maroon-deep) 100%);
+  }
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky; top:0; z-index:50;
+    background:rgba(31,20,16,0.92);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 24px; max-width:1140px; margin:0 auto;
+  }
+  .brand{display:flex; align-items:center; gap:10px; font-family:'Marcellus',serif; font-size:1.3rem; letter-spacing:.02em;}
+  .brand .mark{
+    width:34px;height:34px;border-radius:50%;
+    background:conic-gradient(from 200deg, var(--maroon), var(--gold), var(--maroon));
+    display:grid; place-items:center; font-family:'Marcellus',serif; color:var(--ink); font-size:1rem;
+  }
+  nav.links{display:flex; gap:32px; font-size:.93rem; font-weight:500;}
+  nav.links a{opacity:.82; transition:opacity .2s, color .2s;}
+  nav.links a:hover{opacity:1; color:var(--gold-soft);}
+  .nav-cta{
+    display:flex; align-items:center; gap:10px;
+    background:var(--maroon); color:var(--ivory);
+    padding:10px 20px; border-radius:999px; font-weight:600; font-size:.88rem;
+    border:1px solid rgba(255,255,255,.08);
+    transition:background .2s, transform .2s;
+  }
+  .nav-cta:hover{background:var(--maroon-deep); transform:translateY(-1px);}
+  .menu-toggle{display:none; background:none; border:0; color:var(--ivory); font-size:1.6rem; cursor:pointer;}
+  @media (max-width:860px){
+    nav.links{display:none;}
+    .menu-toggle{display:block;}
+  }
+  @media (max-width:560px){
+    .nav{padding:14px 18px;}
+    .brand{font-size:1.05rem; gap:8px;}
+    .brand .mark{width:30px; height:30px; font-size:.88rem;}
+    .nav-cta span.full-num{display:none;}
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;
+    padding:88px 0 80px;
+    overflow:hidden;
+    background:
+      radial-gradient(ellipse 900px 500px at 80% -10%, rgba(194,64,43,.35), transparent 60%),
+      radial-gradient(ellipse 700px 500px at 0% 100%, rgba(217,162,75,.18), transparent 60%);
+  }
+  .hero-grid{
+    display:grid; grid-template-columns:1.15fr .85fr; gap:56px; align-items:center;
+  }
+  @media (max-width:900px){ .hero-grid{grid-template-columns:1fr;} }
+  .pill{
+    display:inline-flex; align-items:center; gap:8px;
+    border:1px solid var(--line); border-radius:999px; padding:7px 16px;
+    font-size:.8rem; font-weight:600; color:var(--gold-soft); margin-bottom:22px;
+  }
+  .pill .dot{width:7px;height:7px;border-radius:50%;background:var(--maroon); box-shadow:0 0 0 4px rgba(194,64,43,.25);}
+  .hero h1{
+    font-size:clamp(2.4rem, 5vw, 3.7rem);
+    line-height:1.08;
+    margin-bottom:22px;
+  }
+  .hero h1 em{color:var(--gold); font-style:normal;}
+  .hero p.lede{font-size:1.13rem; color:var(--ivory-dim); max-width:520px; margin-bottom:32px;}
+  .cta-row{display:flex; gap:14px; flex-wrap:wrap; margin-bottom:40px;}
+  .btn{
+    display:inline-flex; align-items:center; gap:8px;
+    padding:14px 26px; border-radius:10px; font-weight:700; font-size:.95rem;
+    transition:transform .2s, box-shadow .2s;
+  }
+  .btn-primary{background:var(--maroon); color:var(--ivory); box-shadow:0 10px 30px -10px rgba(194,64,43,.6);}
+  .btn-primary:hover{transform:translateY(-2px); box-shadow:0 14px 34px -8px rgba(194,64,43,.75);}
+  .btn-ghost{border:1px solid var(--line); color:var(--ivory);}
+  .btn-ghost:hover{border-color:var(--gold); color:var(--gold-soft);}
+  .trust-strip{display:flex; gap:28px; flex-wrap:wrap; font-size:.85rem; color:var(--ivory-dim);}
+  .trust-strip b{color:var(--ivory); font-family:'Marcellus',serif; font-size:1.05rem; display:block;}
+
+  .hero-card{
+    background:linear-gradient(155deg, var(--ink-soft), #2a1c14);
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding:30px;
+    position:relative;
+  }
+  .hero-card::before{
+    content:"";
+    position:absolute; inset:0; border-radius:20px;
+    border-top:3px solid var(--gold);
+    pointer-events:none;
+  }
+  .hero-card h3{font-size:1.2rem; margin-bottom:6px;}
+  .hero-card .rating{display:flex; align-items:center; gap:10px; margin:14px 0 18px;}
+  .stars{color:var(--gold); font-size:1.1rem; letter-spacing:2px;}
+  .stat-grid{display:grid; grid-template-columns:1fr 1fr; gap:14px; margin-top:8px;}
+  .stat-box{background:rgba(251,246,238,.04); border:1px solid var(--line); border-radius:12px; padding:14px;}
+  .stat-box .num{font-family:'Marcellus',serif; font-size:1.5rem; color:var(--gold-soft);}
+  .stat-box .label{font-size:.78rem; color:var(--ivory-dim); margin-top:2px;}
+
+  /* ---------- Section heading pattern ---------- */
+  .sec-head{max-width:640px; margin-bottom:48px;}
+  .sec-head .eyebrow{display:block; margin-bottom:10px;}
+  .sec-head h2{font-size:clamp(1.8rem,3.4vw,2.5rem);}
+  .sec-head p{color:var(--ivory-dim); margin-top:14px; font-size:1.02rem;}
+
+  /* ---------- About ---------- */
+  .about-grid{display:grid; grid-template-columns:1fr 1fr; gap:60px; align-items:start;}
+  @media (max-width:860px){ .about-grid{grid-template-columns:1fr; gap:36px;} }
+  .checklist{list-style:none; margin-top:20px;}
+  .checklist li{display:flex; gap:12px; padding:10px 0; border-bottom:1px solid var(--line); font-size:.98rem; color:var(--ivory-dim);}
+  .checklist li:last-child{border-bottom:none;}
+  .checklist li .tick{color:var(--gold); font-weight:700;}
+  .info-card{background:var(--ink-soft); border:1px solid var(--line); border-radius:16px; padding:26px;}
+  .info-row{display:flex; justify-content:space-between; padding:13px 0; border-bottom:1px solid var(--line); font-size:.93rem;}
+  .info-row:last-child{border-bottom:none;}
+  .info-row span:first-child{color:var(--ivory-dim);}
+  .info-row span:last-child{font-weight:600; text-align:right;}
+
+  /* ---------- Services (function cards — invitation-card motif) ---------- */
+  .svc-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:22px;}
+  @media (max-width:860px){ .svc-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:560px){ .svc-grid{grid-template-columns:1fr;} }
+  .svc-card{
+    background:var(--ink-soft);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:26px 22px;
+    border-top:3px solid var(--gold);
+    transition:transform .25s, border-color .25s;
+  }
+  .svc-card:hover{transform:translateY(-5px); border-top-color:var(--maroon);}
+  .svc-card .ic{font-size:1.7rem; margin-bottom:14px;}
+  .svc-card h3{font-size:1.12rem; margin-bottom:8px;}
+  .svc-card p{font-size:.9rem; color:var(--ivory-dim);}
+
+  /* ---------- Plan-your-event filter band (inspired by directory sites) ---------- */
+  .plan-band{
+    background:linear-gradient(120deg, var(--maroon-deep), var(--maroon) 60%, #a8391f);
+    border-radius:22px;
+    padding:42px 38px;
+    display:grid;
+    grid-template-columns:1.2fr 1fr;
+    gap:30px;
+    align-items:center;
+  }
+  @media (max-width:860px){ .plan-band{grid-template-columns:1fr; padding:32px 24px;} }
+  .plan-band h3{font-size:1.7rem; margin-bottom:10px;}
+  .plan-band p{color:rgba(251,246,238,.85); max-width:440px;}
+  .chip-row{display:flex; gap:10px; flex-wrap:wrap; margin-top:20px;}
+  .chip{background:rgba(0,0,0,.18); border:1px solid rgba(255,255,255,.25); border-radius:999px; padding:8px 16px; font-size:.82rem; font-weight:600;}
+  .plan-cta{
+    background:var(--ivory); color:var(--maroon-deep);
+    border-radius:14px; padding:26px; text-align:center;
+  }
+  .plan-cta .num{font-family:'Marcellus',serif; font-size:1.9rem;}
+  .plan-cta .btn-primary{background:var(--ink); margin-top:16px; width:100%; justify-content:center; box-shadow:none;}
+
+  /* ---------- Why us ---------- */
+  .why-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:20px;}
+  @media (max-width:860px){ .why-grid{grid-template-columns:repeat(2,1fr);} }
+  @media (max-width:560px){ .why-grid{grid-template-columns:1fr;} }
+  .why-card{border:1px solid var(--line); border-radius:14px; padding:24px; background:rgba(251,246,238,.03);}
+  .why-card .quote{font-family:'Marcellus',serif; font-size:1.05rem; color:var(--gold-soft); margin-bottom:10px;}
+  .why-card p.cite{font-size:.82rem; color:var(--ivory-dim);}
+
+  /* ---------- Reviews ---------- */
+  .rev-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:22px;}
+  @media (max-width:860px){ .rev-grid{grid-template-columns:1fr;} }
+  .rev-card{background:var(--ink-soft); border:1px solid var(--line); border-radius:14px; padding:24px;}
+  .rev-stars{color:var(--gold); margin-bottom:12px; letter-spacing:2px;}
+  .rev-card p.txt{font-size:.95rem; color:var(--ivory-dim); margin-bottom:16px;}
+  .rev-who{display:flex; gap:10px; align-items:center;}
+  .rev-avatar{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--maroon),var(--gold)); flex-shrink:0;}
+  .rev-who b{font-size:.88rem; display:block;}
+  .rev-who span{font-size:.78rem; color:var(--ivory-dim);}
+
+  /* ---------- FAQ ---------- */
+  .faq-item{border-bottom:1px solid var(--line);}
+  .faq-q{
+    width:100%; text-align:left; background:none; border:0; color:var(--ivory);
+    padding:20px 0; font-family:'Marcellus',serif; font-size:1.08rem;
+    display:flex; justify-content:space-between; align-items:center; cursor:pointer; gap:16px;
+  }
+  .faq-q .plus{color:var(--gold); font-size:1.3rem; transition:transform .25s; flex-shrink:0;}
+  .faq-item.open .plus{transform:rotate(45deg);}
+  .faq-a{max-height:0; overflow:hidden; transition:max-height .3s ease;}
+  .faq-a p{padding-bottom:20px; color:var(--ivory-dim); font-size:.94rem; max-width:680px;}
+
+  /* ---------- Visit / map ---------- */
+  .visit-grid{display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:stretch;}
+  @media (max-width:860px){ .visit-grid{grid-template-columns:1fr;} }
+  .map-box{border-radius:16px; overflow:hidden; border:1px solid var(--line); min-height:320px;}
+  .map-box iframe{width:100%; height:100%; min-height:320px; border:0; filter:grayscale(.15) contrast(1.05);}
+
+  /* ---------- Final CTA ---------- */
+  .final-cta{
+    text-align:center; border-radius:24px; padding:64px 32px;
+    background:radial-gradient(ellipse 700px 300px at 50% 0%, rgba(217,162,75,.25), transparent 70%), var(--ink-soft);
+    border:1px solid var(--line);
+  }
+  .final-cta h2{font-size:clamp(1.8rem,3.6vw,2.6rem); margin-bottom:14px;}
+  .final-cta p{color:var(--ivory-dim); max-width:520px; margin:0 auto 30px;}
+
+  /* ---------- Footer ---------- */
+  footer{border-top:1px solid var(--line); padding:56px 0 30px;}
+  .foot-grid{display:grid; grid-template-columns:1.3fr 1fr 1fr; gap:40px;}
+  @media (max-width:720px){ .foot-grid{grid-template-columns:1fr; gap:30px;} }
+  footer h4{font-size:.85rem; letter-spacing:.08em; text-transform:uppercase; color:var(--gold-soft); margin-bottom:16px;}
+  footer ul{list-style:none;}
+  footer li{margin-bottom:10px; font-size:.92rem; color:var(--ivory-dim);}
+  footer li a:hover{color:var(--gold-soft);}
+  .foot-bottom{display:flex; justify-content:space-between; flex-wrap:wrap; gap:14px; margin-top:48px; padding-top:24px; border-top:1px solid var(--line); font-size:.82rem; color:var(--ivory-dim);}
+  .social-row{display:flex; gap:14px;}
+  .social-row a{width:36px; height:36px; border:1px solid var(--line); border-radius:50%; display:grid; place-items:center; transition:border-color .2s, color .2s;}
+  .social-row a:hover{border-color:var(--gold); color:var(--gold-soft);}
+
+  /* ---------- Floating WhatsApp ---------- */
+  .wa-float{
+    position:fixed; bottom:22px; right:22px; z-index:60;
+    width:58px; height:58px; border-radius:50%;
+    background:#25D366; color:#0b1a10;
+    display:grid; place-items:center; font-size:1.6rem;
+    box-shadow:0 10px 24px -6px rgba(0,0,0,.5);
+    transition:transform .2s;
+  }
+  .wa-float:hover{transform:scale(1.08);}
+
+  /* mobile nav drawer */
+  .mobile-drawer{
+    display:none; position:fixed; inset:0; z-index:80;
+    background:rgba(15,9,7,.96); backdrop-filter:blur(6px);
+    flex-direction:column; align-items:center; justify-content:center; gap:28px;
+  }
+  .mobile-drawer.open{display:flex;}
+  .mobile-drawer a{font-family:'Marcellus',serif; font-size:1.6rem;}
+  .mobile-drawer .close-x{position:absolute; top:24px; right:28px; font-size:2rem; background:none; border:0; color:var(--ivory); cursor:pointer;}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand"><span class="mark">मृ</span>Mir Jaan <span style="color:var(--gold-soft); font-weight:400;">Shadi Hall</span></div>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#plan">Plan Event</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#faq">FAQ</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="tel:+923338050124" class="nav-cta">📞 <span class="full-num">+92 333 8050124</span></a>
+    <button class="menu-toggle" onclick="document.getElementById('drawer').classList.add('open')">☰</button>
+  </div>
+</header>
+
+<div class="mobile-drawer" id="drawer">
+  <button class="close-x" onclick="document.getElementById('drawer').classList.remove('open')">×</button>
+  <a href="#about" onclick="document.getElementById('drawer').classList.remove('open')">About</a>
+  <a href="#services" onclick="document.getElementById('drawer').classList.remove('open')">Services</a>
+  <a href="#plan" onclick="document.getElementById('drawer').classList.remove('open')">Plan Event</a>
+  <a href="#reviews" onclick="document.getElementById('drawer').classList.remove('open')">Reviews</a>
+  <a href="#faq" onclick="document.getElementById('drawer').classList.remove('open')">FAQ</a>
+  <a href="#visit" onclick="document.getElementById('drawer').classList.remove('open')">Visit</a>
+  <a href="tel:+923338050124" style="color:var(--gold);">📞 Call to Book</a>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap">
+    <div class="garland">
+      <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="hero-grid" style="margin-top:34px;">
+      <div>
+        <div class="pill"><span class="dot"></span> Trusted Wedding Venue · Fazal Town Phase II</div>
+        <h1>Celebrate the day you'll <em>remember</em> forever.</h1>
+        <p class="lede">Mir Jaan Shadi Hall is a spacious, affordable marriage hall in Rawalpindi — perfect for weddings, walimas, mehndis and family functions, with ample parking, in-house catering and a team that handles the details so you don't have to.</p>
+        <div class="cta-row">
+          <a href="tel:+923338050124" class="btn btn-primary">📞 Call to Book</a>
+          <a href="https://wa.me/923338050124" class="btn btn-ghost">💬 WhatsApp Us</a>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Mir+Jaan+Shadi+Hall+Fazal+Town+Phase+II+Rawalpindi" class="btn btn-ghost">📍 Get Directions</a>
+        </div>
+        <div class="trust-strip">
+          <div><b>4.0★</b>Google rating</div>
+          <div><b>179+</b>Happy reviews</div>
+          <div><b>10+</b>Years serving</div>
+          <div><b>24/7</b>Easy booking</div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <span class="eyebrow">At a glance</span>
+        <h3 style="margin-top:8px;">Mir Jaan Shadi Hall</h3>
+        <div class="rating">
+          <span class="stars">★★★★</span>
+          <span style="font-size:.85rem; color:var(--ivory-dim);">4.0 · 179+ Google reviews</span>
+        </div>
+        <div class="stat-grid">
+          <div class="stat-box"><div class="num">Hall</div><div class="label">Venue type</div></div>
+          <div class="stat-box"><div class="num">Daily</div><div class="label">Open · till 12 AM</div></div>
+          <div class="stat-box"><div class="num">Ample</div><div class="label">On-site parking</div></div>
+          <div class="stat-box"><div class="num">3</div><div class="label">Function types hosted</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div>
+        <span class="eyebrow">About the hall</span>
+        <h2 style="margin-top:10px; font-size:clamp(1.8rem,3.2vw,2.4rem);">A warm, spacious venue for every celebration.</h2>
+        <p style="color:var(--ivory-dim); margin-top:16px;">Located on Main Old Airport Road in Fazal Town Phase II, Rawalpindi, Mir Jaan Shadi Hall has hosted thousands of weddings, walimas, mehndis and family gatherings. We pride ourselves on a welcoming atmosphere, attentive staff and affordable pricing that lets you focus on the moment — not the bill.</p>
+        <ul class="checklist">
+          <li><span class="tick">✓</span> Wide, well-decorated marriage hall</li>
+          <li><span class="tick">✓</span> Ample on-site parking for guests</li>
+          <li><span class="tick">✓</span> Cooperative owner and friendly staff</li>
+          <li><span class="tick">✓</span> Affordable, transparent pricing</li>
+          <li><span class="tick">✓</span> In-house catering with desi favourites</li>
+        </ul>
+      </div>
+      <div class="info-card">
+        <div class="info-row"><span>Venue type</span><span>Marriage / Banquet Hall</span></div>
+        <div class="info-row"><span>Location</span><span>Fazal Town Phase II, Rawalpindi</span></div>
+        <div class="info-row"><span>Hours</span><span>Open daily · Closes 12 AM</span></div>
+        <div class="info-row"><span>Parking</span><span>Ample on-site parking</span></div>
+        <div class="info-row"><span>Best for</span><span>Weddings, Walimas, Mehndis</span></div>
+        <div class="info-row"><span>Typical pricing</span><span>Budget-friendly per-event rates</span></div>
+        <div class="info-row"><span>Phone</span><span>+92 333 8050124</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" style="background:rgba(251,246,238,.02);">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">What we host</span>
+      <h2>Every kind of celebration, beautifully done.</h2>
+      <p>From intimate family functions to large weddings, our team tailors the hall to your event — and connects you with trusted local vendors for the rest.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc-card"><div class="ic">💍</div><h3>Weddings & Barat</h3><p>A grand setting for your big day with elegant decor, seating and stage arrangements.</p></div>
+      <div class="svc-card"><div class="ic">🌸</div><h3>Walima Receptions</h3><p>Celebrate the next chapter with family and friends in comfort and style.</p></div>
+      <div class="svc-card"><div class="ic">🎶</div><h3>Mehndi Functions</h3><p>Vibrant evenings with room for dance, music and dholki nights.</p></div>
+      <div class="svc-card"><div class="ic">🎉</div><h3>Family Gatherings</h3><p>Birthdays, engagements and small functions, with flexible packages to match.</p></div>
+      <div class="svc-card"><div class="ic">🍽️</div><h3>Catering & Food</h3><p>Tasty, generous menus guests rave about — desi favourites done right, in-house.</p></div>
+      <div class="svc-card"><div class="ic">🚗</div><h3>Easy Parking</h3><p>Plenty of on-site parking so your guests arrive stress-free, even for large events.</p></div>
+      <div class="svc-card"><div class="ic">🎨</div><h3>Decor Coordination</h3><p>We work with trusted local decorators to style the hall to your theme and budget.</p></div>
+      <div class="svc-card"><div class="ic">📸</div><h3>Vendor Referrals</h3><p>Need a photographer or henna artist? We can connect you with vetted local vendors.</p></div>
+      <div class="svc-card"><div class="ic">🧾</div><h3>Custom Packages</h3><p>Tell us your guest count and budget — we'll put together a package that fits.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PLAN YOUR EVENT BAND -->
+<section id="plan">
+  <div class="wrap">
+    <div class="plan-band">
+      <div>
+        <span class="eyebrow" style="color:#fff6e2;">Plan your event</span>
+        <h3 style="margin-top:8px;">Tell us your date, guest count and budget.</h3>
+        <p>Whether it's an intimate 150-guest walima or a full 500-guest wedding night, we'll help you plan the hall layout, catering and timing to fit.</p>
+        <div class="chip-row">
+          <span class="chip">100–300 guests</span>
+          <span class="chip">300–600 guests</span>
+          <span class="chip">Per-head or per-event pricing</span>
+          <span class="chip">Weekday discounts available</span>
+        </div>
+      </div>
+      <div class="plan-cta">
+        <span class="eyebrow" style="color:var(--maroon-deep);">Fastest way to book</span>
+        <div class="num">Call or WhatsApp</div>
+        <p style="font-size:.85rem; margin-top:6px;">Get available dates and a custom quote in minutes.</p>
+        <a href="tel:+923338050124" class="btn btn-primary">📞 +92 333 8050124</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section style="background:rgba(251,246,238,.02);">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Why Mir Jaan</span>
+      <h2>Value, space, and service — all in one venue.</h2>
+      <p>Families in Rawalpindi and Islamabad keep coming back because we deliver on the things that matter most on event day.</p>
+    </div>
+    <div class="why-grid">
+      <div class="why-card"><div class="quote">"Trusted by 179+ families"</div><p class="cite">Years of consistent reviews praising our service and value.</p></div>
+      <div class="why-card"><div class="quote">"Best food I have ever tried"</div><p class="cite">— recent Google review</p></div>
+      <div class="why-card"><div class="quote">"Wide hall, lots of parking"</div><p class="cite">— verified guest</p></div>
+      <div class="why-card"><div class="quote">"Most affordable in the twin cities"</div><p class="cite">— verified guest</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">What guests say</span>
+      <h2>Loved by families across the twin cities.</h2>
+      <p>4.0 average rating · 179+ Google reviews</p>
+    </div>
+    <div class="rev-grid">
+      <div class="rev-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="txt">"Located adjacent to NBP. Cooperative owner. Services 10/10. Highly recommended for weddings and family functions."</p>
+        <div class="rev-who"><div class="rev-avatar"></div><div><b>Shoaib Sheikh</b><span>Local Guide · 300 reviews</span></div></div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-stars">★★★★</div>
+        <p class="txt">"Very good environment and wide marriage hall. Have an enquiry and lots of parking here."</p>
+        <div class="rev-who"><div class="rev-avatar"></div><div><b>Iftikhar Ahmed</b><span>Local Guide · 26 reviews</span></div></div>
+      </div>
+      <div class="rev-card">
+        <div class="rev-stars">★★★★★</div>
+        <p class="txt">"Best shadi hall in the twin cities. Most affordable rates. Best food I have ever tried."</p>
+        <div class="rev-who"><div class="rev-avatar"></div><div><b>Faizan</b><span>Verified Google review</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" style="background:rgba(251,246,238,.02);">
+  <div class="wrap" style="max-width:800px;">
+    <div class="sec-head" style="margin-bottom:30px;">
+      <span class="eyebrow">Good to know</span>
+      <h2>Frequently asked questions</h2>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">How do I book Mir Jaan Shadi Hall? <span class="plus">+</span></button>
+      <div class="faq-a"><p>Call or WhatsApp us at +92 333 8050124 with your event date and guest count. We'll confirm availability and walk you through hall packages and pricing.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">What is the average cost for a function here? <span class="plus">+</span></button>
+      <div class="faq-a"><p>Pricing depends on guest count, date and catering choices. We offer both per-event and per-head packages and are known across the twin cities for being among the most affordable halls in the area — call us for a custom quote.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">Do you provide in-house catering? <span class="plus">+</span></button>
+      <div class="faq-a"><p>Yes — our in-house catering serves generous, desi-favourite menus that guests consistently praise in reviews. We can also accommodate outside caterers on request.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">How many guests can the hall accommodate? <span class="plus">+</span></button>
+      <div class="faq-a"><p>The hall comfortably hosts both mid-size functions and larger weddings. Tell us your expected guest count when you call and we'll confirm the right setup and seating layout.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">Is parking available for guests? <span class="plus">+</span></button>
+      <div class="faq-a"><p>Yes, ample on-site parking is one of the most frequently mentioned positives in our guest reviews — it's rarely an issue even for larger events.</p></div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-q" onclick="toggleFaq(this)">What functions can I host here? <span class="plus">+</span></button>
+      <div class="faq-a"><p>Weddings, baraat receptions, walimas, mehndi nights, engagements, birthdays and family gatherings of all sizes.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section id="visit">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">Visit us</span>
+      <h2>Hours & Location</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="info-card">
+        <div class="info-row"><span>Open</span><span>Daily</span></div>
+        <div class="info-row"><span>Closing time</span><span>12:00 AM</span></div>
+        <div class="info-row"><span>Bookings</span><span>Welcome anytime</span></div>
+        <div class="info-row"><span>Address</span><span style="max-width:220px;">Main Old Airport Rd, Fazal Town Phase II, Rawalpindi 46000</span></div>
+        <div style="margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;">
+          <a href="https://www.google.com/maps/dir/?api=1&destination=Mir+Jaan+Shadi+Hall+Fazal+Town+Phase+II+Rawalpindi" class="btn btn-primary">📍 Get Directions</a>
+          <a href="tel:+923338050124" class="btn btn-ghost">📞 Call to Book</a>
+        </div>
+      </div>
+      <div class="map-box">
+        <iframe src="https://www.google.com/maps?q=Mir+Jaan+Shadi+Hall+Fazal+Town+Phase+II+Rawalpindi&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section>
+  <div class="wrap">
+    <div class="final-cta">
+      <span class="eyebrow">Ready when you are</span>
+      <h2 style="margin-top:12px;">Ready to plan your big day?</h2>
+      <p>Call us to check available dates, view the hall, or get a custom quote for your wedding, walima or mehndi.</p>
+      <div class="cta-row" style="justify-content:center;">
+        <a href="tel:+923338050124" class="btn btn-primary">📞 Call +92 333 8050124</a>
+        <a href="https://wa.me/923338050124" class="btn btn-ghost">💬 WhatsApp Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="brand" style="margin-bottom:14px;"><span class="mark">मृ</span>Mir Jaan Shadi Hall</div>
+        <p style="color:var(--ivory-dim); font-size:.92rem; max-width:320px;">A trusted marriage hall in Fazal Town Phase II, Rawalpindi, hosting weddings and family events with warmth, comfort and value.</p>
+        <div class="social-row" style="margin-top:20px;">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="https://wa.me/923338050124" aria-label="WhatsApp">w</a>
+        </div>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+923338050124">+92 333 8050124</a></li>
+          <li>Main Old Airport Rd, Fazal Town Phase II, Rawalpindi 46000</li>
+          <li>Open daily · Closes 12 AM</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#services">Services & Functions</a></li>
+          <li><a href="#reviews">Guest Reviews</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="#visit">Directions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 Mir Jaan Shadi Hall. All rights reserved.</span>
+      <span>Rawalpindi · Pakistan</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/923338050124" class="wa-float" aria-label="Chat on WhatsApp">💬</a>
+
+<script>
+  function toggleFaq(btn){
+    const item = btn.parentElement;
+    const ans = item.querySelector('.faq-a');
+    const isOpen = item.classList.contains('open');
+    document.querySelectorAll('.faq-item.open').forEach(i=>{
+      i.classList.remove('open');
+      i.querySelector('.faq-a').style.maxHeight = null;
+    });
+    if(!isOpen){
+      item.classList.add('open');
+      ans.style.maxHeight = ans.scrollHeight + 'px';
+    }
+  }
+</script>
+
+</body>
+</html>
